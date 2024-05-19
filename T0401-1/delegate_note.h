@@ -11,10 +11,10 @@ public:
                               const QModelIndex &index)const;
     QSize sizeHint(const QStyleOptionViewItem &option,const QModelIndex &index)const;
     //实现四个虚函数
-    QWidget *createEditor(QWidget *parent,const QStyleOptionViewItem &option,const QModelIndex &index);
-    void setEditorData(QWidget *editor,const QModelIndex &index);
-    void setModelData(QWidget *editor,const QAbstractItemModel *model,const QModelIndex &index);
-    void updateEditorGeometry(QWidget *editor,const QStyleOptionViewItem &option,const QModelIndex &index);
+    QWidget *createEditor(QWidget *parent,const QStyleOptionViewItem &option,const QModelIndex &index)const;
+    void setEditorData(QWidget *editor,const QModelIndex &index)const;
+    void setModelData(QWidget *editor,QAbstractItemModel *model,const QModelIndex &index)const;
+    void updateEditorGeometry(QWidget *editor,const QStyleOptionViewItem &option,const QModelIndex &index)const;
 };
 
 #endif // DELEGATE_NOTE_H

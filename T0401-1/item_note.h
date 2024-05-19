@@ -14,6 +14,9 @@ struct item_note{
 
     item_note *p;//链表
     item_note *n;
+    bool isfold=1;
+    //列个大数组,用used判断数组项是否空置
+    bool used=false;
 };
 
 Q_DECLARE_METATYPE(item_note)
