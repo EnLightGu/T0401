@@ -15,6 +15,8 @@ QTnotes
 
   笔记大小size变化
 
+  笔记分类
+
 
 KDE
 
