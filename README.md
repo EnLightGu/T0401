@@ -1,4 +1,4 @@
-# T0401
+# T0401-使用qt开发note笔记软件
 QTnotes
 
 KDE
